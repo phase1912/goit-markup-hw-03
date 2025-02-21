@@ -8,6 +8,53 @@
     --color-slate: #434455;
 }
 
+/* #region Base */
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
 .logo-header {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -17,6 +64,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-iris);
+    padding: 24px 0;
 }
 
 .logo-footer {
@@ -42,12 +90,14 @@
     color: var(--color-navy-blue);
     text-decoration: none;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .nav-address-link {
     color: var(--color-slate);
     text-decoration: none;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -66,6 +116,7 @@
 
 .address {
     font-style: normal;
+    display: inline-block;
 }
 
 .main-title {

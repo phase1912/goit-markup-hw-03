@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="page-header">
     <div class="container header">
       <nav class="nav">
         <a href="./index.html" class="logo-header">Web<span class="logo-header-span">Studio</span></a>
@@ -37,21 +37,21 @@
 
   <main>
     <section class="first-section">
-      <div class="container">
+      <div class="container main-section">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
         <button class="first-section-button" type="button">Order Service</button>
       </div>
     </section>
 
-    <section>
+    <section class="second-section">
       <div class="container">
-        <h2 class="section-title">Advantages</h2>
+        <h2 class="section-title visually-hidden">Advantages</h2>
 
-        <ul>
-          <li><h3 class="card-title">Strategy</h3><p class="list-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p></li>
-          <li><h3 class="card-title">Punctuality</h3><p class="list-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
-          <li><h3 class="card-title">Diligence</h3><p class="list-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p></li>
-          <li><h3 class="card-title">Technologies</h3><p class="list-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
+        <ul class="section-list">
+          <li class="section-list-item"><h3 class="card-title">Strategy</h3><p class="list-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p></li>
+          <li class="section-list-item"><h3 class="card-title">Punctuality</h3><p class="list-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
+          <li class="section-list-item"><h3 class="card-title">Diligence</h3><p class="list-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p></li>
+          <li class="section-list-item"><h3 class="card-title">Technologies</h3><p class="list-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
         </ul>
       </div>
     </section>
@@ -60,65 +60,85 @@
       <div class="container">
         <h2 class="section-title">our team</h2>
 
-        <ul>
-          <li class="card">
+        <ul class="section-list">
+          <li class="section-list-item">
             <img src="./images/img1.jpg" alt="Mark Guerrero - Product Designer" width="264">
-            <h3 class="card-title">Mark Guerrero</h3>
-            <p class="card-text">Product Designer</p>
+            <div class="card-content">
+              <h3 class="card-title">Mark Guerrero</h3>
+              <p class="card-text">Product Designer</p>
+            </div>
           </li>
-          <li class="card">
+          <li class="section-list-item">
             <img src="./images/img2.jpg" alt="Tom Ford - Frontend Developer" width="264">
-            <h3 class="card-title">Tom Ford</h3>
-            <p class="card-text">Frontend Developer</p>
+            <div class="card-content">
+              <h3 class="card-title">Tom Ford</h3>
+              <p class="card-text">Frontend Developer</p>
+            </div>
           </li>
-          <li class="card">
+          <li class="section-list-item">
             <img src="./images/img3.jpg" alt="Camila Garcia - Marketing" width="264">
-            <h3 class="card-title">Camila Garcia</h3>
-            <p class="card-text">Marketing</p>
+            <div class="card-content">
+              <h3 class="card-title">Camila Garcia</h3>
+              <p class="card-text">Marketing</p>
+            </div>
           </li>
-          <li class="card">
+          <li class="section-list-item">
             <img src="./images/img4.jpg" alt="Daniel Wilson - UI Designer" width="264">
-            <h3 class="card-title">Daniel Wilson</h3>
-            <p class="card-text">UI Designer</p>
+            <div class="card-content">
+              <h3 class="card-title">Daniel Wilson</h3>
+              <p class="card-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
     </section>
     
-    <section>
+    <section class="last-section">
       <div class="container">
         <h2 class="section-title">our portfolio</h2>
 
-        <ul>
-          <li>
-            <img src="./images/img5.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Banking App</h3>
-            <p class="list-text">App</p>
+        <ul class="last-section-list">
+          <li class="last-section-item">
+            <img src="./images/img5.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Banking App</h3>
+              <p class="list-text">App</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img6.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Cashless Payment</h3>
-            <p class="list-text">Marketing</p>
+          <li class="last-section-item">
+            <img src="./images/img6.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Cashless Payment</h3>
+              <p class="list-text">Marketing</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img7.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Meditation App</h3>
-            <p class="list-text">App</p>
+          <li class="last-section-item">
+            <img src="./images/img7.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Meditation App</h3>
+              <p class="list-text">App</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img8.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Taxi Service</h3>
-            <p class="list-text">Marketing</p>
+          <li class="last-section-item">
+            <img src="./images/img8.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Taxi Service</h3>
+              <p class="list-text">Marketing</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img9.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Screen Illustrations</h3>
-            <p class="list-text">Design</p>
+          <li class="last-section-item">
+            <img src="./images/img9.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Screen Illustrations</h3>
+              <p class="list-text">Design</p>
+            </div>
           </li>
-          <li>
-            <img src="./images/img10.jpg" alt="Mark Guerrero - Product Designer" width="360">
-            <h3 class="card-title">Online Courses</h3>
-            <p class="list-text">Marketing</p>
+          <li class="last-section-item">
+            <img src="./images/img10.jpg" alt="Mark Guerrero - Product Designer" width="360" height="300">
+            <div class="last-section-card-contend">
+              <h3 class="card-title">Online Courses</h3>
+              <p class="list-text">Marketing</p>
+            </div>
           </li>
         </ul>
       </div>
